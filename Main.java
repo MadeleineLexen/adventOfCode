@@ -6,15 +6,16 @@ public class Main {
 
         System.out.println("Hello World");
 
-        Puzzle santa = new Puzzle( "path");
+        Puzzle santa = new Puzzle( "test");
 
         /*for( int i = 0; i < santa.getPath().length; i++){
             System.out.println(santa.getPath()[i]);
         }*/
 
         santa.position();
-
+        System.out.println(santa.getX() +  ", " + santa.getY());
         System.out.println(santa.distance());
+
 
     }
 }
